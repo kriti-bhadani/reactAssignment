@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-import {useHistory} from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import {useDispatch} from 'react-redux';
 import { addUser } from '../redux/actions';
 
@@ -49,19 +49,19 @@ const AddUser = () => {
     
      <Form style={{padding: "30px 0"}} onKeyPress={(e)=>{e.target.keyCode === 13 && e.preventDefault();}}>
   <Form.Group className="mb-3">
-    <Form.Control type="text" label="EName" name="ename" defaultValue="Ename" onChange={handleInputChange} style={{margin: "0 auto",width: "45pc"}} />
+    <Form.Control type="text" placeholder="EName" name="ename" defaultValue="" onChange={handleInputChange} style={{margin: "0 auto",width: "45pc"}} />
   </Form.Group>
   <Form.Group className="mb-3">
-    <Form.Control type="text" onChange={handleInputChange} name="age" defaultValue="Age" style={{margin: "0 auto",width: "45pc"}} />
+    <Form.Control type="text" onChange={handleInputChange} name="age" placeholder="Age" defaultValue="" style={{margin: "0 auto",width: "45pc"}} />
   </Form.Group>
   <Form.Group className="mb-3">
-    <Form.Control type="text" onChange={handleInputChange} name="city" defaultValue="City" style={{margin: "0 auto",width: "45pc"}}/>
+    <Form.Control type="text" onChange={handleInputChange} name="city" placeholder="City" defaultValue="" style={{margin: "0 auto",width: "45pc"}}/>
   </Form.Group>
   <Form.Group className="mb-3">
-    <Form.Control type="text" onChange={handleInputChange} name="gender" defaultValue="Gender" style={{margin: "0 auto",width: "45pc"}} />
+    <Form.Control type="text" onChange={handleInputChange} name="gender" placeholder="Gender" defaultValue="" style={{margin: "0 auto",width: "45pc"}} />
   </Form.Group>
   <Form.Group className="mb-3">
-    <Form.Control type="text" onChange={handleInputChange} name="salary" defaultValue="Salary" style={{margin: "0 auto",width: "45pc"}}/>
+    <Form.Control type="text" onChange={handleInputChange} placeholder="Salary" name="salary" defaultValue="" style={{margin: "0 auto",width: "45pc"}}/>
   </Form.Group>
   <Button variant ="contained" className="primary bg-primary text-white"
    style={{width: "100px"}} onClick={handleSubmit} >

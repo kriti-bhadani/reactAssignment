@@ -17,20 +17,12 @@
       "salary": "4785"
     },
     {
-      "ename": "Priya",
+      "ename": "Priya Jain",
       "age": "22",
-      "city": "Jaipur",
+      "city": "Delhi",
       "gender": "Female",
       "salary": "4567",
       "id": 5
-    },
-    {
-      "ename": "Kelvin",
-      "age": "40",
-      "city": "Mumbai",
-      "gender": "Male",
-      "salary": "5678",
-      "id": 6
     },
     {
       "ename": "Riya Kumari",
@@ -39,6 +31,30 @@
       "gender": "Female",
       "salary": "5678",
       "id": 7
+    },
+    {
+      "ename": "Ajay",
+      "age": "50",
+      "city": "Noida",
+      "gender": "Male",
+      "salary": "5678",
+      "id": 8
+    },
+    {
+      "ename": "Kriti",
+      "age": "25",
+      "city": "Noida",
+      "gender": "Female",
+      "salary": "4578",
+      "id": 9
+    },
+    {
+      "ename": "Satish",
+      "age": "23",
+      "city": "Delhi",
+      "gender": "Male",
+      "salary": "50000",
+      "id": 10
     }
   ]
 }
