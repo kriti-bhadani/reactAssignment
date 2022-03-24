@@ -29,7 +29,7 @@ const AddUser = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if(!ename || !age || !city || !gender || !salary) {
-      setError("Please provide all the input fields");
+      setError("Please provide all the input fields below");
     } 
     else {
       dispatch(addUser(state));

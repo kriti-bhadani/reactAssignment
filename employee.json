@@ -1,14 +1,6 @@
 {
   "user": [
     {
-      "id": 1,
-      "ename": "Krish",
-      "age": "24",
-      "city": "Noida",
-      "gender": "male",
-      "salary": "4567"
-    },
-    {
       "id": 2,
       "ename": "Satish Jha",
       "age": "26",
@@ -33,28 +25,12 @@
       "id": 7
     },
     {
-      "ename": "Ajay",
+      "ename": "Vaishnavi",
       "age": "50",
       "city": "Noida",
       "gender": "Male",
       "salary": "5678",
       "id": 8
-    },
-    {
-      "ename": "Kriti",
-      "age": "25",
-      "city": "Noida",
-      "gender": "Female",
-      "salary": "4578",
-      "id": 9
-    },
-    {
-      "ename": "Satish",
-      "age": "23",
-      "city": "Delhi",
-      "gender": "Male",
-      "salary": "50000",
-      "id": 10
     }
   ]
 }
